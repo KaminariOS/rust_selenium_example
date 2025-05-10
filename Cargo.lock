@@ -822,6 +822,7 @@ dependencies = [
 name = "rust_selenium"
 version = "0.1.0"
 dependencies = [
+ "strip-tags",
  "thirtyfour",
  "tokio",
 ]
@@ -1010,6 +1011,12 @@ checksum = "6aadc0801d92f0cdc26127c67c4b8766284f52a5ba22894f285e3101fa57d05d"
 dependencies = [
  "regex",
 ]
+
+[[package]]
+name = "strip-tags"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ecd2b127e68202f5f285a116f616d5d11735cca5e4befaea0347becd445b05b2"
 
 [[package]]
 name = "subtle"
